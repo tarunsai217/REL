@@ -1,0 +1,192 @@
+.parentContainer{
+    display: flex;
+    width: 100%;
+    color: white;
+    min-height: 100vh;
+}
+
+.sideContainer{
+  flex: 1 1 25%;
+  background-color: #17172B;
+  padding :0.5rem 2rem;
+}
+
+.logoHeading{
+    font-size: 1.75rem;
+    color: white;
+}
+
+.logoContainer{
+    display: flex;
+    place-items: center;
+    height: 80%;
+}
+
+.logoContainer img{
+    height: 12rem;
+}
+
+
+.mainContainer{
+    flex: 1 1 75%;
+    background-color: #141416;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 6rem;
+}
+
+.buttonContainer{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-bottom: 3rem;
+}
+
+.buttonContainer button{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonContainer img{
+    height: 0.9rem;
+    margin:0px;
+}
+.buttonContainer div:nth-child(2) img{
+    border-radius: 25%;
+}
+
+.buttonWrapper{
+    display: flex;
+    place-items: center;
+    cursor: pointer;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.formHeading{
+    display: flex;
+    place-items: center;
+    font-size:1.4rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.formHeading img {
+    height: 1.4rem;
+    margin-right:15px;
+}
+.inputContainer1,.inputContainer2,.inputContainer3{
+    background-color: #1E1E30;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    min-width: 350px;
+    margin:0.5rem 0;
+}
+
+.inputContainer1{
+    display: flex;
+}
+
+.inputContainer1 .token{
+    display: flex;
+    flex-direction: column;
+    flex:1 1 60%;
+}
+
+.inputContainer1 div select{
+    width: 60%;
+    margin-right: 1rem;
+    background-color: #302E54;
+    color: #D8D7DE;
+    padding: 0.5rem;
+    border:1px solid #4E557A;
+    border-radius: 10px;
+    height: 2.5rem;
+    position: relative;
+}
+
+/* .inputContainer1 > div:nth-child(2){
+    width: 0px;
+    border: 1px solid white;
+    margin: 0 1rem;
+} */
+
+
+.inputContainer2{
+    display: flex;
+}
+
+.inputContainer2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer2 div input{
+    margin-right: 1rem;
+}
+/* .inputContainer2 > div:first-child{
+    flex: 1 1 55%;
+} */
+.inputContainer2 > div:nth-child(2){
+    max-width: 50%;
+}
+
+
+.inputContainer3{
+ display: flex;
+}
+.inputContainer3 div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+ input{
+    background-color: #302E54;
+    color: #D8D7DE;
+    padding: 0.5rem;
+    border:1px solid #4E557A;
+    border-radius: 10px;
+    height: 1.5rem;
+}
+
+ input:focus ,select:focus{
+ outline: none;
+}
+
+.inputLabel{
+    color: #4E557A;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom:0.5rem ;
+}
+
+
+
+
+
+
+.button{
+    background: linear-gradient(#9A81FC,#5A3EC4);
+    color: white;
+    padding: 0.5rem;
+    border:none;
+    display: flex;
+    place-items: center;
+    align-self: center;
+    margin:0.5rem auto;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+}
+.button img{
+    margin-right: 0.5rem;
+}

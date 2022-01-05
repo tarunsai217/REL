@@ -1,0 +1,59 @@
+.dropdown{
+    background-color: #302E54;
+    color: #D8D7DE;
+    padding: 0.5rem;
+    border:1px solid #4E557A;
+    border-radius: 10px;
+    height: 1.5rem;
+    position: relative;
+    display: flex;
+    place-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:105%;
+    width: 100%;
+}
+
+.optionContainer{
+    display: flex;
+    padding: 0.5rem 1rem 0.5rem 0.25rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.dropdownButton{
+    display: flex;
+    position: relative;
+    min-width: 140px;
+    place-items: center;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.selectContainer{
+    display: flex;
+    place-items: center;
+    padding: 0.5rem 1rem 0.5rem 0.25rem;
+}
+
+.selectContainer img{
+    height: 1.25rem;
+    margin-right: 0.7rem;
+}
+
+.caretDown{
+   height: 1rem;
+   position: absolute;
+   right: 0.25rem;
+}
+
+.optionContainer img{
+    height: 1.3rem;
+    margin-right: 0.7rem;
+}
